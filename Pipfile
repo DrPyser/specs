@@ -1,0 +1,19 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+wheel = "*"
+setuptools = "*"
+funklib = {path = "./../funklib/dist/funklib-0.5-py3-none-any.whl"}
+ipython = "*"
+"0350f6e" = {path = "../funklib/", editable = true}
+"87a2c73" = {path = "./../funklib/dist/funklib-0.5-py3-none-any.whl"}
+
+
+[dev-packages]
+
